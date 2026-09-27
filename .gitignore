@@ -1,0 +1,111 @@
+# ========== 数据库相关文件 ==========
+# SQL Server 数据库文件
+*.mdf
+*.ldf
+*.ndf
+*.sdf
+# 备份与日志
+*.bak
+*.trn
+*.sqlbak
+
+# MySQL 数据文件
+*.ibd
+*.frm
+*.myi
+*.myd
+*.ib_logfile*
+# 数据库备份、导出文件
+*.sql.bak
+*.dump
+*.backup
+# 工具临时文件
+*.rpt
+*.log
+*.tmp
+
+# PostgreSQL 备份导出文件
+*.dump
+*.sql.backup
+*.backup
+# psql / pgAdmin 临时文件
+*.rpt
+*.log
+*.tmp
+
+# Redis持久化文件
+dump.rdb
+appendonly.aof
+*.rdb
+*.aof
+# Redis临时日志
+redis.log
+*.log
+# 本地环境私有配置（带真实密码的本地配置）
+redis.local.conf
+
+# SQLite 数据库文件
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.sdb
+*.db-wal
+*.db-shm
+# 数据库备份、导出文件
+*.dump
+*.sql.bak
+*.backup
+# 工具临时文件
+*.rpt
+*.log
+*.tmp
+
+# MongoDB 备份导出文件
+*.bson
+*.metadata.json
+mongodump/
+mongorestore/
+# mongosh / Compass 临时文件
+*.log
+*.tmp
+
+# SSMS / 数据库工具临时文件
+*.rpt
+*.log
+*.tmp
+*.sqlproj.user
+bin/
+obj/
+
+# ========== 本地配置、敏感信息（重点！不要提交密码） ==========
+.env
+*.config
+appsettings.json
+!appsettings.example.json
+*.user
+*.suo
+
+# ========== VS 项目杂项（VS开发，必加） ==========
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.log
+*.pdb
+*.ipch
+*.tlog
+*.vcxproj.user
+
+# ========== VSCode 项目杂项（VSCode开发，必加） ==========
+.vscode/
+.vscode/ipch
+
+# ========== 其他临时文件 ==========
+*.tmp
+*.cache
+
+node_modules/
